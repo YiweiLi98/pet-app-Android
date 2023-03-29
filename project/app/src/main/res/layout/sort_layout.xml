@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/sort1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:textAlignment="center"
+        android:paddingHorizontal="5dp"
+        android:text="Sort by Time" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e2e2e2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sort2"
+        android:paddingHorizontal="5dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:text="Sort by Like" />
+
+</LinearLayout>
